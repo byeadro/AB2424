@@ -1,0 +1,58 @@
+[debug] [2025-07-03T14:39:43.961Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-07-03T14:39:47.093Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-07-03T14:39:47.094Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-03T14:39:47.108Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[error] [Firebase Plugin] requireAuth error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[debug] [2025-07-03T14:40:22.716Z] [Firebase Plugin] Value of process.env.MONOSPACE_ENV: undefined
+[debug] [2025-07-03T14:40:22.718Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-07-03T14:40:22.719Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[error] [Firebase Plugin] requireAuth error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[debug] [2025-07-03T14:40:22.724Z] [Firebase Plugin] Value of process.env.MONOSPACE_ENV: undefined
+[debug] [2025-07-03T14:40:22.724Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-07-03T14:40:22.727Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[error] [Firebase Plugin] requireAuth error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=228637319&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-07-03T14:40:30.251Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2025-07-03T14:40:30.251Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"74a357bf-3169-414f-91fd-4ca0cc01617f"}
+[debug] [2025-07-03T14:40:30.525Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
+[debug] [2025-07-03T14:40:30.525Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"F9Zc3NhCV5bz7lBMUk_2d88h0hOel-BGSVU0xYk9Wi8"}
+[info] 
+[info] To sign in to the Firebase CLI:
+[info] 
+[info] 1. Take note of your session ID:
+[info] 
+[info]    74A35
+[info] 
+[info] 2. Visit the URL below on any device and follow the instructions to get your code:
+[info] 
+[info]    https://auth.firebase.tools/login?code_challenge=Abxx1RMyBZrz8fLAfKymjY_xOlqT2AET7pwgpdOoxyw&session=74a357bf-3169-414f-91fd-4ca0cc01617f&attest=F9Zc3NhCV5bz7lBMUk_2d88h0hOel-BGSVU0xYk9Wi8
+[info] 
+[info] 3. Paste or enter the authorization code below once you have it:
+[info] 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=228637319&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-07-03T14:40:54.811Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2025-07-03T14:40:54.811Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"c0983788-01f6-4795-ba62-80e685e341c2"}
+[debug] [2025-07-03T14:40:55.076Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
+[debug] [2025-07-03T14:40:55.076Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"ZCcGuLYoPLJsH8M1QKdh7937DFmfTKdyqbdt-QCHLsk"}
+[info] 
+[info] To sign in to the Firebase CLI:
+[info] 
+[info] 1. Take note of your session ID:
+[info] 
+[info]    C0983
+[info] 
+[info] 2. Visit the URL below on any device and follow the instructions to get your code:
+[info] 
+[info]    https://auth.firebase.tools/login?code_challenge=Ra1IWujmvfjnfk5Yb8DGhTZxWvo8XTI9xMfAkrnzsQg&session=c0983788-01f6-4795-ba62-80e685e341c2&attest=ZCcGuLYoPLJsH8M1QKdh7937DFmfTKdyqbdt-QCHLsk
+[info] 
+[info] 3. Paste or enter the authorization code below once you have it:
+[info] 
