@@ -1,0 +1,22 @@
+export const prompts = [
+  "What made you smile today?",
+  "What are you grateful for right now?",
+  "Describe a challenge you overcame today.",
+  "What’s one thing you learned today?",
+  "How did today differ from yesterday?",
+  "Write about someone who inspired you today.",
+  "What moment do you wish you could relive today?",
+  "What’s a goal you want to focus on tomorrow?",
+  "Describe how you’re feeling in one word.",
+  "What was today’s highlight?",
+  "What would you change about today if you could?",
+  "What’s a small victory you had today?",
+  "How did you take care of yourself today?",
+  "What’s a memory that came to mind today?",
+  "What’s on your mind as you write this?",
+  "What’s a risk you took today?",
+  "Describe today’s weather and how it felt.",
+  "What’s a song that matched your mood today?",
+  "What’s a story you want to remember from today?",
+  "What’s one thing you want to release from today?"
+]

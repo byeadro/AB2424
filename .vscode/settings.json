@@ -1,3 +1,9 @@
 {
-    "git.ignoreLimitWarning": true
+  // Disable built-in CSS validation so Tailwind directives aren’t flagged
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+
+  // Alternatively, if you want to keep validation but ignore unknown at-rules:
+  // "css.lint.unknownAtRules": "ignore"
 }

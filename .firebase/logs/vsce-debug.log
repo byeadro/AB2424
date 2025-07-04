@@ -56,3 +56,44 @@
 [info] 
 [info] 3. Paste or enter the authorization code below once you have it:
 [info] 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=228637319&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-07-03T15:43:28.251Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2025-07-03T15:43:28.252Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"0a1ce691-b511-41b3-97a9-f6daff5d87f3"}
+[debug] [2025-07-03T15:43:28.691Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
+[debug] [2025-07-03T15:43:28.691Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"x2Jmd0ktbDsUXVUw5ws_ykbjmnGd0ZBGaF9eWv7wys8"}
+[info] 
+[info] To sign in to the Firebase CLI:
+[info] 
+[info] 1. Take note of your session ID:
+[info] 
+[info]    0A1CE
+[info] 
+[info] 2. Visit the URL below on any device and follow the instructions to get your code:
+[info] 
+[info]    https://auth.firebase.tools/login?code_challenge=M7g7Udxw5mUyWPkDZinJdAqpgzjMd7WqdZYskDs95ME&session=0a1ce691-b511-41b3-97a9-f6daff5d87f3&attest=x2Jmd0ktbDsUXVUw5ws_ykbjmnGd0ZBGaF9eWv7wys8
+[info] 
+[info] 3. Paste or enter the authorization code below once you have it:
+[info] 
+[debug] [2025-07-03T15:51:58.461Z] [Firebase Plugin] Received emulators started notification. Running detection.
+[debug] [2025-07-03T15:54:13.530Z] [Firebase Plugin] Received CLI notification.
+[debug] [2025-07-03T15:54:13.535Z] [Firebase Plugin] Received emulators shutdown notification.
+[debug] [2025-07-03T15:57:22.208Z] [Firebase Plugin] Received CLI notification.
+[debug] [2025-07-03T15:57:22.568Z] [Firebase Plugin] Received emulators shutdown notification.
+[debug] [2025-07-03T15:58:33.384Z] [Firebase Plugin] Received emulators started notification. Running detection.
+[debug] [2025-07-03T16:33:32.865Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-07-03T16:33:37.490Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-07-03T16:33:37.492Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-03T16:33:37.513Z] [Firebase Plugin] VSCode notification server listening on port 40002
+[error] [Firebase Plugin] requireAuth error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[info] [Firebase Plugin] Stopping Data Connect toolkit
+[debug] [2025-07-03T18:27:47.162Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-07-03T18:28:25.946Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-07-03T18:28:25.948Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-03T18:28:25.975Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[error] [Firebase Plugin] requireAuth error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
